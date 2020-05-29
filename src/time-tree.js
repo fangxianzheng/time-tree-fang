@@ -142,7 +142,7 @@ class TimeTree {
               obj[year][month][day].push(i)
             }
           } else if (year == this.startYear && month == this.startMonth && day == this.startDay) {
-            for (let i = this.startHour; i <= 24; i ++) {
+            for (let i = this.startHour; i <= 23; i ++) {
               obj[year][month][day].push(i)
             }
           } else if (year == this.endYear && month == this.endMonth && day == this.endDay) {
